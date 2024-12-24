@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Şirket Girişi";
+}
+@{ Layout = "~/Views/Shared/SirketLayout.cshtml"; }
+
+<div class="container mt-5">
+    <h1 class="text-center">Şirket Girişi</h1>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+    <form method="post" action="">
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="mb-3">
+            <label for="sifre" class="form-label">Şifre</label>
+            <input type="password" class="form-control" id="sifre" name="sifre" required />
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Giriş Yap</button>
+    </form>
+</div>

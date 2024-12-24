@@ -1,0 +1,54 @@
+﻿@model List<KariyerPortali5.Models.Ilan>
+@{ Layout = "~/Views/Shared/SirketLayout.cshtml"; }
+
+<div class="container mt-4">
+    <h1 class="mb-4">İlanlarım</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    @if (!Model.Any())
+    {
+        <p>Henüz bir ilanınız bulunmamaktadır.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Pozisyon</th>
+                    <th>Şehir</th>
+                    <th>Maaş</th>
+                    <th>Son Başvuru Tarihi</th>
+                    <th>Açıklama</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var ilan in Model)
+                {
+                    <tr>
+                        <td>@ilan.Pozisyon.PozisyonAdi</td>
+                        <td>@ilan.Konum.Sehir</td>
+                        <td>@ilan.Maas</td>
+                        <td>@ilan.SonBasvuruTarihi</td>
+                        <td>@ilan.Aciklama</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Ilanlarim", new { id = ilan.IlanId })" class="btn btn-sm btn-warning">Düzenle</a>
+                            <form method="post" action="@Url.Action("Delete", "Ilanlarim")" style="display:inline;">
+                                <input type="hidden" name="IlanId" value="@ilan.IlanId" />
+                                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Bu ilanı silmek istediğinize emin misiniz?');">Sil</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

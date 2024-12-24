@@ -1,0 +1,66 @@
+﻿@model KariyerPortali5.Models.Ilan
+@{ Layout = "~/Views/Shared/SirketLayout.cshtml"; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlan Oluştur</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Yeni İlan Oluştur</h1>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+        }
+
+        <form method="post" action="@Url.Action("Create", "SirketIlan")">
+            <div class="form-group mb-3">
+                <label for="Aciklama">Açıklama</label>
+                <textarea class="form-control" id="Aciklama" name="Aciklama" rows="4" placeholder="İlan açıklaması..."></textarea>
+            </div>
+            <div class="form-group mb-3">
+                <label for="PozisyonId">Pozisyon</label>
+                <select class="form-control" id="PozisyonId" name="PozisyonId">
+                    <option value="">Pozisyon seçin</option>
+                    @foreach (var pozisyon in ViewBag.Pozisyonlar as IEnumerable<dynamic>)
+                    {
+                        <option value="@pozisyon.PozisyonId">@pozisyon.PozisyonAdi</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group mb-3">
+                <label for="KonumId">Konum</label>
+                <select class="form-control" id="KonumId" name="KonumId">
+                    <option value="">Konum seçin</option>
+                    @foreach (var konum in ViewBag.Konumlar as IEnumerable<dynamic>)
+                    {
+                        <option value="@konum.KonumId">@konum.Sehir</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group mb-3">
+                <label for="Maas">Maaş</label>
+                <input type="number" class="form-control" id="Maas" name="Maas" placeholder="Maaş" />
+            </div>
+            <div class="form-group mb-3">
+                <label for="SonBasvuruTarihi">Son Başvuru Tarihi</label>
+                <input type="date" class="form-control" id="SonBasvuruTarihi" name="SonBasvuruTarihi" />
+            </div>
+            <div class="form-group mb-3">
+                <label for="Nitelikler">Nitelikler</label>
+                <textarea class="form-control" id="Nitelikler" name="Nitelikler" rows="4" placeholder="Nitelikler..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Oluştur</button>
+        </form>
+    </div>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

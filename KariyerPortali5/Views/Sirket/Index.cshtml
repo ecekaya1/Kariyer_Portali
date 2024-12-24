@@ -1,0 +1,77 @@
+﻿@model List<KariyerPortali5.Models.Sirket>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şirketler</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Şirketler</h1>
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <!-- Arama ve Filtreleme -->
+        <form method="get" action="@Url.Action("Index", "Sirket")">
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <label for="sektor">Sektör</label>
+                    <select id="sektor" name="sektor" class="form-control">
+                        <option value="">Tüm Sektörler</option>
+                        @foreach (var sektor in ViewBag.Sektorler as List<string>)
+                        {
+                            <option value="@sektor">@sektor</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="sehir">Şehir</label>
+                    <select id="sehir" name="sehir" class="form-control">
+                        <option value="">Tüm Şehirler</option>
+                        @foreach (var sehir in ViewBag.Sehirler as List<string>)
+                        {
+                            <option value="@sehir">@sehir</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="sirketAdi">Şirket Adı</label>
+                    <input type="text" id="sirketAdi" name="sirketAdi" class="form-control" placeholder="Şirket adı girin" />
+                </div>
+                <div class="col-md-2 align-self-end">
+                    <button type="submit" class="btn btn-primary w-100">Ara</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Şirket Listesi -->
+        @if (!Model.Any())
+        {
+            <p>Hiç şirket bulunamadı.</p>
+        }
+        else
+        {
+            <div class="list-group">
+                @foreach (var sirket in Model)
+                {
+                    <div class="list-group-item">
+                        <h5>@sirket.SirketAdi</h5>
+                        <p><strong>Sektör:</strong> @sirket.Sektor.SektorAdi</p>
+                        <p><strong>Şehir:</strong> @sirket.Konum.Sehir</p>
+                        <a href="@sirket.WebSite" class="btn btn-link" target="_blank">Web Sitesi</a>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

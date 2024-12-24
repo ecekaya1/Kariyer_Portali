@@ -1,0 +1,41 @@
+﻿@model KariyerPortali5.Models.Sirket
+
+@{
+    ViewBag.Title = "Şirket Anasayfa";
+}
+@{ Layout = "~/Views/Shared/SirketLayout.cshtml"; }
+
+<div class="container mt-5">
+    <h1 class="text-center">Hoşgeldiniz, @Model.SirketAdi!</h1>
+    <p class="text-center">Şirket anasayfanızdasınız. Buradan ilanlarınızı yönetebilir, gelen başvuruları inceleyebilir ve profil bilgilerinizi güncelleyebilirsiniz.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">İlanlarım</h5>
+                    <p class="card-text">Şirket ilanlarınızı görüntüleyin ve düzenleyin.</p>
+                    <a href="@Url.Action("Index", "Ilanlarim")" class="btn btn-primary">İlanlarımı Yönet</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Gelen Başvurular</h5>
+                    <p class="card-text">İlanlarınıza yapılan başvuruları inceleyin.</p>
+                    <a href="@Url.Action("Index", "Basvurularim")" class="btn btn-primary">Başvuruları Gör</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Profilim</h5>
+                    <p class="card-text">Şirket profil bilgilerinizi düzenleyin.</p>
+                    <a href="@Url.Action("Index", "SirketProfil")" class="btn btn-primary">Profilimi Düzenle</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

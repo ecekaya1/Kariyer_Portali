@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Şirket Paneli";
+    Layout = "~/Views/Shared/SirketLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1>Şirket Paneline Hoşgeldiniz, @Session["SirketAdi"]!</h1>
+    <a class="btn btn-danger mt-3" href="@Url.Action("Logout", "SirketLogin")">Çıkış Yap</a>
+</div>

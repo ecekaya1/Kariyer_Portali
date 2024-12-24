@@ -1,0 +1,45 @@
+﻿@model List<KariyerPortali5.Models.Basvuru>
+
+@{
+    ViewBag.Title = "Başvurularım";
+    Layout = "~/Views/Shared/SirketLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Başvurularım</h1>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    @if (!Model.Any())
+    {
+        <p>Henüz bir başvuru bulunmamaktadır.</p>
+    }
+    else
+    {
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Kullanıcı Adı</th>
+            <th>Kullanıcı Soyadı</th>
+            <th>Kullanıcı Emaili</th>
+            <th>Başvuru Durumu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var basvuru in Model)
+        {
+            <tr>
+                <td>@(basvuru.Kullanici != null ? basvuru.Kullanici.Isim : "Bilinmiyor")</td>
+                <td>@(basvuru.Kullanici != null ? basvuru.Kullanici.Soyisim : "Bilinmiyor")</td>
+                <td>@(basvuru.Kullanici != null ? basvuru.Kullanici.Email : "Bilinmiyor")</td>
+                <td>@(basvuru.BasvuruDurumu != null ? basvuru.BasvuruDurumu.Durum : "Bilinmiyor")</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+    }
+</div>

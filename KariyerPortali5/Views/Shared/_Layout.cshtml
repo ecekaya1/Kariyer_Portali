@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Kariyer Portalı</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Dashboard", "Home")">Kariyer Portalı</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Dashboard", "Home")">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Ilan")">İlanlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Sirket")">Şirketler</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="@Url.Action("Basvurularim", "Ilan")">Başvurularım</a>
+
+
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    @if (Session["UserId"] != null)
+                    {
+                        <a class="btn btn-outline-light me-2" href="@Url.Action("Logout", "Login")">Çıkış Yap</a>
+                        <a class="btn btn-light" href="@Url.Action("Index", "Profil")">Profilim</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-outline-light me-2" href="@Url.Action("Index", "Login")">Giriş Yap</a>
+                        <a class="btn btn-light" href="@Url.Action("Index", "Register")">Kayıt Ol</a>
+                        <a class="btn btn-light" href="@Url.Action("Index", "SirketLogin")">Şirketler için</a>
+                    }
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Kariyer Portalı. Tüm Hakları Saklıdır.</p>
+            <p>İletişim: info@kariyerportali.com</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

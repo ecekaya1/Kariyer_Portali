@@ -1,0 +1,46 @@
+﻿@model KariyerPortali5.Models.Sirket
+@{ Layout = "~/Views/Shared/SirketLayout.cshtml"; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şirket Kayıt Ol</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Şirket Kayıt Ol</h2>
+
+        @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+        {
+            <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+        }
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+        }
+
+        <form method="post" action="@Url.Action("Index", "SirketRegister")">
+            <div class="mb-3">
+                <label for="SirketAdi" class="form-label">Şirket Adı</label>
+                <input type="text" class="form-control" id="SirketAdi" name="SirketAdi" required />
+            </div>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" name="Email" required />
+            </div>
+            <div class="mb-3">
+                <label for="Sifre" class="form-label">Şifre</label>
+                <input type="password" class="form-control" id="Sifre" name="Sifre" required />
+            </div>
+            <div class="mb-3">
+                <label for="WebSite" class="form-label">Web Sitesi</label>
+                <input type="url" class="form-control" id="WebSite" name="WebSite" />
+            </div>
+            <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+        </form>
+    </div>
+</body>
+</html>

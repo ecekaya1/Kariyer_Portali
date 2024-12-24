@@ -1,0 +1,758 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|c:\\users\\alper\\onedrive\\masa\u00FCst\u00FC\\web\\kariyerportali5\\kariyerportali5\\models\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\models\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\ilan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\ilan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\ilancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\ilancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\models\\ilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\models\\ilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\models\\basvuru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\models\\basvuru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\models\\departman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\models\\departman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\models\\basvurudurumu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\models\\basvurudurumu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\ilan\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\ilan\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\ilanlarimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\ilanlarimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\sirkethomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\sirkethomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\sirketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\sirketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\profilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\profilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\basvurularim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\basvurularim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\ilanlarim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\ilanlarim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\basvurularimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\basvurularimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\ilanlarim\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\ilanlarim\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\sirkethome\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\sirkethome\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\shared\\sirketlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\shared\\sirketlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\sirketlogin\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\sirketlogin\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\sirketlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\sirketlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\sirketprofil\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\sirketprofil\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\sirketilancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\sirketilancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\sirketprofilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\sirketprofilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\models\\sektor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\models\\sektor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\profil\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\profil\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\sirketregister\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\sirketregister\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\sirketlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\sirketlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\models\\sirket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\models\\sirket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\controllers\\sirketregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\controllers\\sirketregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\sirket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\sirket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\sirketilan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\sirketilan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\ilan\\basvurularim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\ilan\\basvurularim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\kariyerportali5\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFE1B20F-21AD-4812-8DF0-60A49A63D69A}|KariyerPortali5\\KariyerPortali5.csproj|solutionrelative:kariyerportali5\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 318,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 38,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Departman.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Departman.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Models\\Departman.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Departman.cs",
+              "RelativeToolTip": "KariyerPortali5\\Models\\Departman.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:42:21.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KullaniciController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\KullaniciController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\KullaniciController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\KullaniciController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\KullaniciController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:23:23.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IlanController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\IlanController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\IlanController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\IlanController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\IlanController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:47:44.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Global.asax.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Global.asax.cs",
+              "RelativeToolTip": "KariyerPortali5\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:15:21.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\web.config",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\web.config",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\web.config",
+              "RelativeToolTip": "KariyerPortali5\\Views\\web.config",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-22T17:15:17.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T17:15:09.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Web.config",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Web.config",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Web.config",
+              "RelativeToolTip": "KariyerPortali5\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-22T17:15:05.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilanlarim\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Ilanlarim\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilanlarim\\Edit.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Ilanlarim\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T17:05:17.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Sektor.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Sektor.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Models\\Sektor.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Sektor.cs",
+              "RelativeToolTip": "KariyerPortali5\\Models\\Sektor.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:42:04.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketProfil\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\SirketProfil\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketProfil\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\SirketProfil\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T16:34:09.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SirketProfilController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketProfilController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\SirketProfilController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketProfilController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\SirketProfilController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:05.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProfilController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\ProfilController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\ProfilController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\ProfilController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\ProfilController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:31:17.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketLogin\\Logout.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\SirketLogin\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketLogin\\Logout.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\SirketLogin\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T16:08:47.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketRegister\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\SirketRegister\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketRegister\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\SirketRegister\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T16:04:28.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SirketRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketRegisterController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\SirketRegisterController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketRegisterController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\SirketRegisterController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:02:44.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA5wDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:58:52.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:58:16.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasvuruDurumu.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\BasvuruDurumu.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Models\\BasvuruDurumu.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\BasvuruDurumu.cs",
+              "RelativeToolTip": "KariyerPortali5\\Models\\BasvuruDurumu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:22:01.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Basvurularim\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Basvurularim\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Basvurularim\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Basvurularim\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T15:09:36.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BasvurularimController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\BasvurularimController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\BasvurularimController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\BasvurularimController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\BasvurularimController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:09:14.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilanlarim\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Ilanlarim\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilanlarim\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Ilanlarim\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:45:51.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SirketController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\SirketController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\SirketController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T14:27:04.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketIlan\\Create.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\SirketIlan\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketIlan\\Create.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\SirketIlan\\Create.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:16:10.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SirketIlanController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketIlanController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\SirketIlanController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketIlanController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\SirketIlanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T14:15:07.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SirketLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Shared\\SirketLayout.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Shared\\SirketLayout.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Shared\\SirketLayout.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Shared\\SirketLayout.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwDMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:11:48.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:11:07.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Profil\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Profil\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Profil\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Profil\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:11:05.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:11:01.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilan\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Ilan\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilan\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Ilan\\Index.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:10:49.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilan\\Details.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Ilan\\Details.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilan\\Details.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Ilan\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:10:46.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Basvurularim.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilan\\Basvurularim.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Ilan\\Basvurularim.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Ilan\\Basvurularim.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Ilan\\Basvurularim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:10:43.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketHome\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\SirketHome\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketHome\\Dashboard.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\SirketHome\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T14:05:32.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SirketHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketHomeController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\SirketHomeController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketHomeController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\SirketHomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T14:04:19.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketLogin\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\SirketLogin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\SirketLogin\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\SirketLogin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T13:14:07.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SirketLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketLoginController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\SirketLoginController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\SirketLoginController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\SirketLoginController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T13:11:46.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "KariyerPortali5\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:51:57.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Sirket\\Index.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Sirket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Sirket\\Index.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Sirket\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T12:46:44.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T12:44:53.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Models\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\DatabaseHelper.cs",
+              "RelativeToolTip": "KariyerPortali5\\Models\\DatabaseHelper.cs",
+              "ViewState": "AgIAAO0DAAAAAAAAAAAowB8EAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:37:07.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KariyerPortali5\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T12:35:18.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IlanlarimController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\IlanlarimController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\IlanlarimController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\IlanlarimController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\IlanlarimController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA3wB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:33:57.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Kullanici.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Kullanici.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Models\\Kullanici.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Kullanici.cs",
+              "RelativeToolTip": "KariyerPortali5\\Models\\Kullanici.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:28:13.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ilan.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Ilan.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Models\\Ilan.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Ilan.cs",
+              "RelativeToolTip": "KariyerPortali5\\Models\\Ilan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:27:40.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Basvuru.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Basvuru.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Models\\Basvuru.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Basvuru.cs",
+              "RelativeToolTip": "KariyerPortali5\\Models\\Basvuru.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:27:32.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Sirket.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Sirket.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Models\\Sirket.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Models\\Sirket.cs",
+              "RelativeToolTip": "KariyerPortali5\\Models\\Sirket.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:25:25.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KariyerPortali5\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\alper\\OneDrive\\Masa\u00FCst\u00FC\\web\\KariyerPortali5\\KariyerPortali5\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KariyerPortali5\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:21:50.812Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

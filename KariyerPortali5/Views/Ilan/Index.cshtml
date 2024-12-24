@@ -1,0 +1,111 @@
+﻿@model List<KariyerPortali5.Models.Ilan>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlanlar</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Tüm İlanlar</h1>
+        <div class="row">
+            <!-- Filtreleme Alanı -->
+            <div class="col-md-3">
+                <form method="get" action="@Url.Action("Index", "Ilan")">
+                    <h5>Filtreleme</h5>
+
+                    <!-- Sektör Filtreleme -->
+                    <div class="form-group mb-3">
+                        <label for="sektor">Sektör</label>
+                        <select class="form-control" name="sektor" id="sektor">
+                            <option value="">Tümü</option>
+                            <option value="Bilişim">Bilişim</option>
+                            <option value="Eğitim">Eğitim</option>
+                            <option value="Sağlık">Sağlık</option>
+                            <option value="Finans">Finans</option>
+                        </select>
+                    </div>
+
+                    <!-- Şehir Filtreleme -->
+                    <div class="form-group mb-3">
+                        <label for="sehir">Şehir</label>
+                        <select class="form-control" name="sehir" id="sehir">
+                            <option value="">Tümü</option>
+                            <option value="İstanbul">İstanbul</option>
+                            <option value="Ankara">Ankara</option>
+                            <option value="İzmir">İzmir</option>
+                            <option value="Bursa">Bursa</option>
+                        </select>
+                    </div>
+
+                    <!-- Maaş Sıralama -->
+                    <div class="form-group mb-3">
+                        <label for="maasSiralama">Maaş Sıralama</label>
+                        <select class="form-control" name="maasSiralama" id="maasSiralama">
+                            <option value="">Varsayılan</option>
+                            <option value="desc">En Yüksekten Aşağıya</option>
+                            <option value="asc">En Düşükten Yukarıya</option>
+                        </select>
+                    </div>
+
+                    <!-- Pozisyon Filtreleme -->
+                    <div class="form-group mb-3">
+                        <label for="pozisyon">Pozisyon</label>
+                        <input type="text" class="form-control" name="pozisyon" id="pozisyon" placeholder="Pozisyon adı">
+                    </div>
+
+                    <!-- Maaş Filtreleme -->
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="filtreMaaş" name="filtreMaaş" value="true" @(Request["filtreMaaş"] == "true" ? "checked" : "")>
+                        <label class="form-check-label" for="filtreMaaş">
+                            Maaşı 100.000'den fazla olan ilanları göster
+                        </label>
+                    </div>
+
+                    <!-- Ara Butonu -->
+                    <button type="submit" class="btn btn-primary w-100">Filtrele</button>
+                </form>
+            </div>
+
+            <!-- İlan Listesi -->
+            <div class="col-md-9">
+                <div class="row">
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var ilan in Model)
+                        {
+                            <div class="col-md-6 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">İlan</h5>
+                                        <p class="card-text"><strong>Sektör:</strong> @(ilan.Sirket?.Sektor?.SektorAdi ?? "Belirtilmemiş")</p>
+                                        <p class="card-text"><strong>Şehir:</strong> @(ilan.Konum?.Sehir ?? "Belirtilmemiş")</p>
+                                        <p class="card-text"><strong>Pozisyon:</strong> @(ilan.Pozisyon?.PozisyonAdi ?? "Belirtilmemiş")</p>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <a href="@Url.Action("Details", "Ilan", new { id = ilan.IlanId })" class="btn btn-info btn-sm">Detayları Gör</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="col-12">
+                            <div class="alert alert-warning text-center">
+                                <p>Aradığınız kriterlere uygun ilan bulunamadı.</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Script -->
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

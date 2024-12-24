@@ -1,0 +1,58 @@
+﻿@model KariyerPortali5.Models.Kullanici
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol - Kariyer Portalı</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Kayıt Ol</h2>
+
+        @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+        {
+            <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+        }
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+        }
+
+        <form method="post" action="@Url.Action("Index", "Register")">
+            <div class="mb-3">
+                <label for="Isim" class="form-label">İsim</label>
+                <input type="text" class="form-control" id="Isim" name="Isim" required />
+            </div>
+            <div class="mb-3">
+                <label for="Soyisim" class="form-label">Soyisim</label>
+                <input type="text" class="form-control" id="Soyisim" name="Soyisim" required />
+            </div>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" name="Email" required />
+            </div>
+            <div class="mb-3">
+                <label for="TelefonNo" class="form-label">Telefon Numarası</label>
+                <input type="text" class="form-control" id="TelefonNo" name="TelefonNo" required />
+            </div>
+            <div class="mb-3">
+                <label for="DogumTarihi" class="form-label">Doğum Tarihi</label>
+                <input type="date" class="form-control" id="DogumTarihi" name="DogumTarihi" required />
+            </div>
+            <div class="mb-3">
+                <label for="Yetenekler" class="form-label">Yetenekler</label>
+                <textarea class="form-control" id="Yetenekler" name="Yetenekler"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="Sifre" class="form-label">Şifre</label>
+                <input type="password" class="form-control" id="Sifre" name="Sifre" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+        </form>
+    </div>
+</body>
+</html>

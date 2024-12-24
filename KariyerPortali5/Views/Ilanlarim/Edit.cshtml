@@ -1,0 +1,52 @@
+﻿@model KariyerPortali5.Models.Ilan
+@{ Layout = "~/Views/Shared/SirketLayout.cshtml"; }
+
+<div class="container mt-4">
+    <h1 class="mb-4">İlanı Düzenle</h1>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <form method="post" action="@Url.Action("Edit", "Ilanlarim")">
+        <input type="hidden" name="IlanId" value="@Model.IlanId" />
+
+        <div class="form-group mb-3">
+            <label for="PozisyonId">Pozisyon</label>
+            <select class="form-control" id="PozisyonId" name="PozisyonId">
+                @foreach (var pozisyon in ViewBag.Pozisyonlar as IEnumerable<dynamic>)
+                {
+                    <option value="@pozisyon.PozisyonId" @(pozisyon.PozisyonId == Model.PozisyonId ? "selected" : "")>
+                        @pozisyon.PozisyonAdi
+                    </option>
+                }
+            </select>
+        </div>
+        <div class="form-group mb-3">
+            <label for="KonumId">Konum</label>
+            <select class="form-control" id="KonumId" name="KonumId">
+                @foreach (var konum in ViewBag.Konumlar as IEnumerable<dynamic>)
+                {
+                    <option value="@konum.KonumId" @(konum.KonumId == Model.KonumId ? "selected" : "")>
+                        @konum.Sehir
+                    </option>
+                }
+            </select>
+        </div>
+        <div class="form-group mb-3">
+            <label for="Maas">Maaş</label>
+            <input type="number" class="form-control" id="Maas" name="Maas" value="@Model.Maas" />
+        </div>
+        <div class="form-group mb-3">
+            <label for="SonBasvuruTarihi">Son Başvuru Tarihi</label>
+            <input type="date" class="form-control" id="SonBasvuruTarihi" name="SonBasvuruTarihi"
+                   value="@Model.SonBasvuruTarihi?.ToString(" yyyy-MM-dd")" />
+        </div>
+        <div class="form-group mb-3">
+            <label for="Aciklama">Açıklama</label>
+            <textarea class="form-control" id="Aciklama" name="Aciklama" rows="4">@Model.Aciklama</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </form>
+</div>

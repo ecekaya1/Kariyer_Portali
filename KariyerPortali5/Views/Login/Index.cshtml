@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Giriş Yap";
+}
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="container mt-4">
+    <h2>Giriş Yap</h2>
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+    }
+    <form method="post" action="@Url.Action("Index", "Login")">
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" name="Email" required />
+        </div>
+        <div class="mb-3">
+            <label for="Sifre" class="form-label">Şifre</label>
+            <input type="password" class="form-control" id="Sifre" name="Sifre" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Giriş Yap</button>
+    </form>
+</div>

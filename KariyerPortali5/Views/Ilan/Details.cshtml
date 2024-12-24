@@ -1,0 +1,42 @@
+﻿@model KariyerPortali5.Models.Ilan
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlan Detayları</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">@Model.Sirket.SirketAdi -@Model.Pozisyon.PozisyonAdi </h1>
+        <p><strong>Şirket:</strong> @(Model.Sirket?.SirketAdi ?? "Belirtilmemiş Şirket")</p>
+        <p><strong>Sektör:</strong> @(Model.Sirket?.Sektor?.SektorAdi ?? "Belirtilmemiş Sektör")</p>
+        <p><strong>Açıklama:</strong> @(Model.Aciklama ?? "Belirtilmemiş")</p>
+        <p><strong>Son Başvuru Tarihi:</strong> @(Model.SonBasvuruTarihi?.ToShortDateString() ?? "Belirtilmemiş")</p>
+        <p><strong>Nitelikler:</strong> @(Model.Nitelikler ?? "Belirtilmemiş")</p>
+        <p><strong>Maaş:</strong> @(Model.Maas > 0 ? Model.Maas.ToString("C") : "Belirtilmemiş")</p>
+
+        <form action="@Url.Action("BasvuruYap", "Ilan")" method="post">
+            <input type="hidden" name="ilanId" value="@Model.IlanId" />
+            <button type="submit" class="btn btn-primary">Başvuru Yap</button>
+        </form>
+
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>
