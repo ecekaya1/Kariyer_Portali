@@ -1,4 +1,4 @@
-JOB PORTAL
+JOB PORTAL (USING ASP.NET AND MS SQL)
 
 Developed a career portal website where job seekers can upload their information and apply for job postings, while employers can publish job listings and manage applications. 
 The platform includes key features such as user authentication, job filtering, and an application tracking system.
